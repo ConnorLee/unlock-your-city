@@ -24,18 +24,18 @@ jQuery( document ).ready(function() {
 
 jQuery(document).ready(function(jQuery){
 	//open interest point description
-	jQuery('.travelogue-single-point').children('a').on('click', function(){
+	jQuery('.Magnises-single-point').children('a').on('click', function(){
 		var selectedPoint = jQuery(this).parent('li');
 		if( selectedPoint.hasClass('is-open') ) {
 			selectedPoint.removeClass('is-open').addClass('visited');
 		} else {
-			selectedPoint.addClass('is-open').siblings('.travelogue-single-point').removeClass('is-open');
+			selectedPoint.addClass('is-open').siblings('.Magnises-single-point').removeClass('is-open');
 		}
 	});
 	//close interest point description
-	jQuery('.travelogue-close-info').on('click', function(event){
+	jQuery('.Magnises-close-info').on('click', function(event){
 		event.preventDefault();
-		jQuery(this).parents('.travelogue-single-point').eq(0).removeClass('is-open').addClass('visited');
+		jQuery(this).parents('.Magnises-single-point').eq(0).removeClass('is-open').addClass('visited');
 	});
 });
 
@@ -67,7 +67,7 @@ Array.prototype.filter.call(elements, function(element){
 
 /* ### Fancy Search Form ##################################################################### */
 jQuery( document ).ready(function( $ ) {
-	new UISearch( document.getElementById( 'travelogue-search' ) );
+	new UISearch( document.getElementById( 'Magnises-search' ) );
 	jQuery('#st-container').load('nav.html', function() {
 		//Begin: MailChimp JS
 		jQuery('#invite').ketchup().submit(function(evt) {
@@ -96,7 +96,7 @@ jQuery( document ).ready(function( $ ) {
 		//End: MailChimp JS
 	});
 	jQuery( "#trigger-menu" ).click(function() {
-		jQuery('.travelogue-search').fadeToggle('fast');
+		jQuery('.Magnises-search').fadeToggle('fast');
 	});
 });
 
@@ -171,7 +171,7 @@ function mobilecheck() {
 
 	function UISearch( el, options ) {	
 		this.el = el;
-		this.inputEl = el.querySelector( 'form > input.travelogue-search-input' );
+		this.inputEl = el.querySelector( 'form > input.Magnises-search-input' );
 		this._initEvents();
 	}
 
@@ -183,11 +183,11 @@ function mobilecheck() {
 					// trim its value
 					self.inputEl.value = self.inputEl.value.trim();
 					
-					if( !classie.has( self.el, 'travelogue-search-open' ) ) { // open it
+					if( !classie.has( self.el, 'Magnises-search-open' ) ) { // open it
 						ev.preventDefault();
 						self.open();
 					}
-					else if( classie.has( self.el, 'travelogue-search-open' ) && /^\s*$/.test( self.inputEl.value ) ) { // close it
+					else if( classie.has( self.el, 'Magnises-search-open' ) && /^\s*$/.test( self.inputEl.value ) ) { // close it
 						ev.preventDefault();
 						self.close();
 					}
@@ -200,7 +200,7 @@ function mobilecheck() {
 		},
 		open : function() {
 			var self = this;
-			classie.add( this.el, 'travelogue-search-open' );
+			classie.add( this.el, 'Magnises-search-open' );
 			// focus the input
 			if( !mobilecheck() ) {
 				this.inputEl.focus();
@@ -216,7 +216,7 @@ function mobilecheck() {
 		},
 		close : function() {
 			this.inputEl.blur();
-			classie.remove( this.el, 'travelogue-search-open' );
+			classie.remove( this.el, 'Magnises-search-open' );
 		}
 	}
 

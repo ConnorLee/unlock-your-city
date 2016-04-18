@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:    Travelogue - Travel Blog HTML Template
+Project:    Magnises - Travel Blog HTML Template
 Version:    1.0
 Author:     Modeltheme
-URL:        http://modeltheme.com/travelogue/
+URL:        http://modeltheme.com/Magnises/
 
 [Table of contents]
 
@@ -326,7 +326,7 @@ p.two_third {
 a,
 a:hover, a:focus {
     outline: none;
-    color: #339999;
+    color: #f7d031;
     position: relative;
     text-decoration: none;
 }
@@ -338,7 +338,7 @@ a:hover:before {
 }
 a:before {
     max-width: 0;
-    border-bottom: 2px solid #339999;
+    border-bottom: 2px solid #f7d031;
     content: "";
     position: absolute;
     overflow: hidden;
@@ -910,7 +910,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 
 
 /*--- 2.1. SEARCH FORM ---*/
-#travelogue-search-404 {
+#Magnises-search-404 {
     height: 50px;
     margin-bottom: 0;
     margin-left: auto;
@@ -923,7 +923,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     float: none;
     right: auto;
 }
-.travelogue-search {
+.Magnises-search {
     float: right;
     height: 50px;
     width: 50px;
@@ -939,10 +939,10 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     -webkit-backface-visibility: hidden;
     z-index: 10000;
 }
-.travelogue-search-submit {
+.Magnises-search-submit {
     padding: 17px;
 }
-.travelogue-search-input {
+.Magnises-search-input {
     background: none repeat scroll 0 0 rgba(255,255,255,0.8);
     border: medium none;
     color: #2c3e50;
@@ -961,21 +961,21 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     z-index: 10;
     line-height: 20px;
 }
-#search-404.travelogue-search-input{
+#search-404.Magnises-search-input{
     line-height: 21px;
 }
-.travelogue-search-input::-webkit-input-placeholder,
-.travelogue-search-input:-moz-placeholder,
-.travelogue-search-input::-moz-placeholder,
-.travelogue-search-input:-ms-input-placeholder {
+.Magnises-search-input::-webkit-input-placeholder,
+.Magnises-search-input:-moz-placeholder,
+.Magnises-search-input::-moz-placeholder,
+.Magnises-search-input:-ms-input-placeholder {
     color: #2D3E58;
 }
-#search-404.travelogue-search-input::-webkit-input-placeholder { /* WebKit browsers */
+#search-404.Magnises-search-input::-webkit-input-placeholder { /* WebKit browsers */
     color:    #FFF;
     opacity: 0.7;
 }
-.travelogue-icon-search, 
-.travelogue-search-submit {
+.Magnises-icon-search, 
+.Magnises-search-submit {
     cursor: pointer;
     display: block;
     height: 40px;
@@ -987,14 +987,14 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     top: 5px;
     width: 40px;
 }
-.travelogue-icon-search:hover {
+.Magnises-icon-search:hover {
     opacity: 0.8;
 }
-.travelogue-search-open .travelogue-search-input {
+.Magnises-search-open .Magnises-search-input {
     padding: 10px;
     width: 25%;
 }
-.travelogue-search-submit {
+.Magnises-search-submit {
     background: #fff; /* IE needs this */
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
@@ -1004,7 +1004,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     outline: none;
     z-index: -1;
 }
-.travelogue-icon-search, .travelogue-icon-sound {
+.Magnises-icon-search, .Magnises-icon-sound {
     color: #fff;
     background: none repeat scroll 0 0 transparent;
     border: 2px solid #fff;
@@ -1021,14 +1021,14 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 
 
 /*--- 2.2. PLAY/PAUSE BUTTON (for Video Background version only) ---*/
-.travelogue-icon-sound.fa.fa-volume-up,
-.travelogue-icon-sound.fa.fa-volume-off {
+.Magnises-icon-sound.fa.fa-volume-up,
+.Magnises-icon-sound.fa.fa-volume-off {
     float: left;
     line-height: 24px;
     text-align: center;
     width: 100%;
 }
-.travelogue-icon-sound{
+.Magnises-icon-sound{
     border: none;
 }
 a.sound:before{
@@ -1537,19 +1537,19 @@ body .cd-primary-nav-trigger:before {
     text-align: left;
 }
 /* Sidebar - Open state */
-.travelogue-search.travelogue-search-open {
+.Magnises-search.Magnises-search-open {
     width: 100%;
 }
-.travelogue-search.travelogue-search-open .travelogue-icon-search,
-.no-js .travelogue-search .travelogue-icon-search {
+.Magnises-search.Magnises-search-open .Magnises-icon-search,
+.no-js .Magnises-search .Magnises-icon-search {
     background: none repeat scroll 0 0 transparent;
     border: 2px solid #fff;
     border-radius: 0;
     color: #fff;
     z-index: 11;
 }
-.travelogue-search.travelogue-search-open .travelogue-search-submit,
-.no-js .travelogue-search .travelogue-search-submit {
+.Magnises-search.Magnises-search-open .Magnises-search-submit,
+.no-js .Magnises-search .Magnises-search-submit {
     z-index: 90;
 }
 
@@ -1584,7 +1584,7 @@ body .cd-primary-nav-trigger:before {
     padding: 30px 0;
 }
 .index-about .subline img {
-    border: 7px solid #339999;
+    border: 7px solid #f7d031;
     border-radius: 50%;
     -o-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1609,51 +1609,51 @@ body .cd-primary-nav-trigger:before {
 }
 
 /*--- 3.1. MAP LOCATIONS - Block ---*/
-.travelogue-container {
+.Magnises-container {
     width: 90%;
     max-width: 1170px;
     margin: 0 auto;
 }
-.travelogue-container:after {
+.Magnises-container:after {
     content: "";
     display: table;
     clear: both;
 }
-.travelogue-img-replace:before {
+.Magnises-img-replace:before {
     max-width: 100%;
     border-bottom: 0 none;
 }
-.travelogue-img-replace {
+.Magnises-img-replace {
     display: inline-block;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
 }
-.travelogue-product {
+.Magnises-product {
     text-align: center;
 }
-.travelogue-product.travelogue-container {
+.Magnises-product.Magnises-container {
     display: block;
     float: left;
     min-width: 100%;
     padding: 0 !important;
 }
-.travelogue-product-wrapper {
+.Magnises-product-wrapper {
     display: inline-block;
     position: relative;
     margin: 0 auto;
     width: 100%;
 }
-.travelogue-product-wrapper > img {
+.Magnises-product-wrapper > img {
     display: block;
     min-width: 100%;
     max-width: 100%;
 }
-.travelogue-single-point {
+.Magnises-single-point {
     position: absolute;
     border-radius: 50%;
 }
-.travelogue-single-point > a {
+.Magnises-single-point > a {
     position: relative;
     z-index: 2;
     display: block;
@@ -1666,7 +1666,7 @@ body .cd-primary-nav-trigger:before {
     -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
 }
-.travelogue-single-point > a::after, .travelogue-single-point > a:before {
+.Magnises-single-point > a::after, .Magnises-single-point > a:before {
     /* rotating plus icon */
     content: '';
     position: absolute;
@@ -1687,15 +1687,15 @@ body .cd-primary-nav-trigger:before {
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
-.travelogue-single-point > a::after {
+.Magnises-single-point > a::after {
     height: 2px;
     width: 12px;
 }
-.travelogue-single-point > a::before {
+.Magnises-single-point > a::before {
     height: 12px;
     width: 2px;
 }
-.travelogue-single-point::after {
+.Magnises-single-point::after {
     /* this is used to create the pulse animation */
     content: '';
     position: absolute;
@@ -1706,48 +1706,48 @@ body .cd-primary-nav-trigger:before {
     left: 0;
     border-radius: inherit;
     background-color: transparent;
-    -webkit-animation: travelogue-pulse 2s infinite;
-    -moz-animation: travelogue-pulse 2s infinite;
-    animation: travelogue-pulse 2s infinite;
+    -webkit-animation: Magnises-pulse 2s infinite;
+    -moz-animation: Magnises-pulse 2s infinite;
+    animation: Magnises-pulse 2s infinite;
 }
-.travelogue-single-point:first-child {
+.Magnises-single-point:first-child {
     bottom: 49%;
     right: 48%;
 }
-.travelogue-single-point:nth-child(2) {
+.Magnises-single-point:nth-child(2) {
     bottom: 25%;
     right: 60%;
 }
-.travelogue-single-point:nth-child(3) {
+.Magnises-single-point:nth-child(3) {
     left: 26%;
     top: 35%;
 }
-.travelogue-single-point:nth-child(4) {
+.Magnises-single-point:nth-child(4) {
     right: 35%;
     top: 31%;
 }
-.travelogue-single-point:nth-child(5) {
+.Magnises-single-point:nth-child(5) {
     right: 29%;
     top: 73%;
 }
-.travelogue-single-point:nth-child(6) {
+.Magnises-single-point:nth-child(6) {
     left: 40%;
     top: 15%;
 }
-.travelogue-single-point.is-open > a {
+.Magnises-single-point.is-open > a {
     background-color: #475f74;
 }
-.travelogue-single-point.is-open > a::after, .travelogue-single-point.is-open > a::before {
+.Magnises-single-point.is-open > a::after, .Magnises-single-point.is-open > a::before {
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
     -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
     -o-transform: translateX(-50%) translateY(-50%) rotate(135deg);
     transform: translateX(-50%) translateY(-50%) rotate(135deg);
 }
-.travelogue-single-point.is-open::after {
+.Magnises-single-point.is-open::after {
     display: none;
 }
-.travelogue-single-point.is-open .travelogue-more-info {
+.Magnises-single-point.is-open .Magnises-more-info {
     visibility: visible;
     opacity: 1;
     -webkit-transform: scale(1);
@@ -1759,13 +1759,13 @@ body .cd-primary-nav-trigger:before {
     -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
     transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
-.travelogue-single-point.visited > a {
+.Magnises-single-point.visited > a {
     background-color: #475f74;
 }
-.travelogue-single-point.visited::after {
+.Magnises-single-point.visited::after {
     display: none;
 }
-.travelogue-single-point .travelogue-more-info {
+.Magnises-single-point .Magnises-more-info {
     position: fixed;
     color: #ffffff;
     top: 0;
@@ -1790,7 +1790,7 @@ body .cd-primary-nav-trigger:before {
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
-.travelogue-single-point .travelogue-more-info::before {
+.Magnises-single-point .Magnises-more-info::before {
     content: '';
     position: absolute;
     height: 0;
@@ -1798,19 +1798,19 @@ body .cd-primary-nav-trigger:before {
     display: none;
     border: 8px solid transparent;
 }
-.travelogue-single-point .travelogue-more-info h2 {
+.Magnises-single-point .Magnises-more-info h2 {
     line-height: 30px;
     margin-bottom: 7px;
 }
-.travelogue-single-point .travelogue-more-info p {
+.Magnises-single-point .Magnises-more-info p {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 13px;
 }
-.travelogue-more-info img {
+.Magnises-more-info img {
     min-width: 100%;
 }
-.travelogue-close-info {
+.Magnises-close-info {
     border: 2px solid #ffffff;
     height: 40px;
     position: fixed;
@@ -1819,7 +1819,7 @@ body .cd-primary-nav-trigger:before {
     width: 40px;
     z-index: 34543;
 }
-.travelogue-close-info::after, .travelogue-close-info:before {
+.Magnises-close-info::after, .Magnises-close-info:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -1839,11 +1839,11 @@ body .cd-primary-nav-trigger:before {
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
-.travelogue-close-info::after {
+.Magnises-close-info::after {
     height: 2px;
     width: 16px;
 }
-.travelogue-close-info::before {
+.Magnises-close-info::before {
     height: 16px;
     width: 2px;
 }
@@ -2391,74 +2391,74 @@ header .overlay {
     opacity: 0;
 }
 /* Article comments - list comments */
-.travelogue_comment_form .focus-me::-webkit-input-placeholder,
-.travelogue_comment_form .focus-me:-moz-placeholder,
-.travelogue_comment_form .focus-me::-moz-placeholder,
-.travelogue_comment_form .focus-me:-ms-input-placeholder{
+.Magnises_comment_form .focus-me::-webkit-input-placeholder,
+.Magnises_comment_form .focus-me:-moz-placeholder,
+.Magnises_comment_form .focus-me::-moz-placeholder,
+.Magnises_comment_form .focus-me:-ms-input-placeholder{
    color: white;
 }
-.travelogue_comments .child_comment {
+.Magnises_comments .child_comment {
     margin-left: 30px;
 }
-.travelogue_comments .author_name {
+.Magnises_comments .author_name {
     color: rgba(0, 0, 0, 0.7);
     font-size: 15px;
     line-height: normal;
     text-align: center;
     width: 87%;
 }
-.travelogue_comments .child_child_comment {
+.Magnises_comments .child_child_comment {
     margin-left: 60px;
 }
-.travelogue_comments.comments {
+.Magnises_comments.comments {
     overflow: hidden;
 }
-.travelogue_comments .comment_author, .travelogue_comments .comment_body {
+.Magnises_comments .comment_author, .Magnises_comments .comment_body {
     color: #111111;
 }
-.travelogue_comments .comment_author {
+.Magnises_comments .comment_author {
     width: 100px;
 }
-.travelogue_comments .single_comment {
+.Magnises_comments .single_comment {
     margin-top: 20px;
     padding: 0;
 }
-.travelogue_comments .single_comment:nth-child(2) {
+.Magnises_comments .single_comment:nth-child(2) {
     margin-top: 0;
 }
-.travelogue_comments .comment_date {
+.Magnises_comments .comment_date {
     color: #aaaaaa;
 }
-.travelogue_comments .comment_footer {
+.Magnises_comments .comment_footer {
     color: #555555;
 }
-.travelogue_comments .comment_author > img {
+.Magnises_comments .comment_author > img {
     border: 2px solid rgba(255, 255, 255, 0.6);
     max-height: 87%;
     max-width: 87%;
 }
-.travelogue_comments .sixth_one.comment_body {
+.Magnises_comments .sixth_one.comment_body {
     border: 2px solid rgba(255, 255, 255, 0.6);
     padding: 15px;
     width: 88%;
 }
-.travelogue_comments .child_comment .comment_body {
+.Magnises_comments .child_comment .comment_body {
     width: 84.5%;
 }
-.travelogue_comments .comment_body p {
+.Magnises_comments .comment_body p {
     color: rgba(0, 0, 0, 0.7);
     font-size: 15px;
     line-height: normal;
     margin-bottom: 0;
 }
-.travelogue_comments .single_comment:hover .comment_author img, 
-.travelogue_comments .single_comment:hover .comment_body {
+.Magnises_comments .single_comment:hover .comment_author img, 
+.Magnises_comments .single_comment:hover .comment_body {
     border-color: rgba(50, 152, 152,.6);
     transition: all 500ms ease 0s;
     -moz-transition: all 500ms ease 0s;
     -webkit-transition: all 500ms ease 0s;
 }
-.travelogue_comments .single_comment:hover .author_name{
+.Magnises_comments .single_comment:hover .author_name{
     color: rgba(50, 152, 152,.6);
     transition: all 500ms ease 0s;
     -moz-transition: all 500ms ease 0s;
@@ -2473,19 +2473,19 @@ input, textarea {
     font-size: 13px;
     padding: 9px;
 }
-.travelogue_comment_form textarea {
+.Magnises_comment_form textarea {
     margin-top: 10px;
 }
-.travelogue_comment_form .one_half:first-child input {
+.Magnises_comment_form .one_half:first-child input {
     width: calc(100% - 10px);
 }
-.travelogue_comment_form input, .travelogue_comment_form textarea {
+.Magnises_comment_form input, .Magnises_comment_form textarea {
     border: 2px solid #329898;
     font-size: 13px;
     padding: 9px;
     width: 100%;
 }
-.travelogue_comment_form input[type="submit"] {
+.Magnises_comment_form input[type="submit"] {
     margin: 30px 0;
 }
 .reply_button {
@@ -2626,8 +2626,8 @@ input, textarea {
     from { -webkit-transform: translateY(100%); transform: translateY(100%); }
     to { -webkit-transform: translateY(0); transform: translateY(0); }
 }
-.travelogue_comment_form .questions input.focus-me,
-.travelogue_comment_form .questions textarea.focus-me {
+.Magnises_comment_form .questions input.focus-me,
+.Magnises_comment_form .questions textarea.focus-me {
     font-size: 19px;
     padding: 15px;
 }
@@ -2660,11 +2660,11 @@ input, textarea {
 .no-js .questions .focus-me {
     opacity: 1;
 }
-.travelogue_comment_form .questions .current .focus-me,
-.travelogue_comment_form .no-js .questions .focus-me {
+.Magnises_comment_form .questions .current .focus-me,
+.Magnises_comment_form .no-js .questions .focus-me {
     color: white;
 }
-.travelogue_comment_form .error-message.show, .travelogue_comment_form .final-message.show {
+.Magnises_comment_form .error-message.show, .Magnises_comment_form .final-message.show {
     color: #000000;
     opacity: 0.6;
 }
@@ -2723,7 +2723,7 @@ input, textarea {
     -moz-osx-font-smoothing: grayscale;
     margin-top: -10px;
 }
-#travelogue-search-404 input[type="submit"] {
+#Magnises-search-404 input[type="submit"] {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     display: block;
@@ -2763,9 +2763,9 @@ input, textarea {
     font-weight: 700;
     font-size: 16px;
 }
-.travelogue_comment_form .simform .number:after,
-.travelogue_comment_form .simform .number .number-current,
-.travelogue_comment_form .simform .number span{
+.Magnises_comment_form .simform .number:after,
+.Magnises_comment_form .simform .number .number-current,
+.Magnises_comment_form .simform .number span{
     color: #000000;
     opacity: 0.6;
 }
@@ -2819,11 +2819,11 @@ input, textarea {
     font-style: italic;
     font-size: 18px;
 }
-.travelogue_comment_form .final-message{
+.Magnises_comment_form .final-message{
     font-size: 22px;
     text-align: left;
 }
-.travelogue_comment_form .final-message{
+.Magnises_comment_form .final-message{
     padding: 0;
     text-align: left;
 }
@@ -2903,12 +2903,12 @@ input[type=text]::-ms-clear {
     width: auto;
     display: none;
 }
-.index-contact .travelogue-search-input {
+.index-contact .Magnises-search-input {
     border: medium none;
     margin: 0;
     padding: 8px 0;
 }
-.index-contact .travelogue-search-open .travelogue-search-input {
+.index-contact .Magnises-search-open .Magnises-search-input {
     padding: 10px;
 }
 .intro-effect-smooth .content {
@@ -2919,7 +2919,7 @@ input[type=text]::-ms-clear {
     color: rgba(255, 255, 255, 0.85);
     padding: 7px;
 }
-#travelogue-search-404 .travelogue-search-input {
+#Magnises-search-404 .Magnises-search-input {
     background: none repeat scroll 0 0 rgba(161, 196, 196, 0.7);
     padding: 10px 0 10px 10px;
     right: 0;
@@ -3267,7 +3267,7 @@ span.nav-close:after {
 }
 .modify.gallery-open .top,
 .gallery-open .search-form-header,
-.gallery-open #travelogue-search {
+.gallery-open #Magnises-search {
     display: none !important;
 }
 .slideshow figure h2 {
@@ -3461,8 +3461,8 @@ nav.gallery-nav > div > span.nav-next {
 }
 }
 
-/*travelogue-pulse effect - for about map*/
-@-webkit-keyframes travelogue-pulse {
+/*Magnises-pulse effect - for about map*/
+@-webkit-keyframes Magnises-pulse {
   0% {
     -webkit-transform: scale(1);
     box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0.8);
@@ -3477,7 +3477,7 @@ nav.gallery-nav > div > span.nav-next {
     box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0);
   }
 }
-@-moz-keyframes travelogue-pulse {
+@-moz-keyframes Magnises-pulse {
   0% {
     -moz-transform: scale(1);
     box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0.8);
@@ -3492,7 +3492,7 @@ nav.gallery-nav > div > span.nav-next {
     box-shadow: inset 0 0 1px 1px rgba(217, 83, 83, 0);
   }
 }
-@keyframes travelogue-pulse {
+@keyframes Magnises-pulse {
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4401,12 +4401,12 @@ body.st-effect-3.menu-open .st-menu.st-effect-1 {
 /*---------------------------------------------*/
 /*--- 9. CSS FOR SAFARI ---*/
 /*---------------------------------------------*/
-::i-block-chrome, .travelogue-search-open .travelogue-search-input,
-::i-block-chrome, .index-contact .travelogue-search-open .travelogue-search-input {
+::i-block-chrome, .Magnises-search-open .Magnises-search-input,
+::i-block-chrome, .index-contact .Magnises-search-open .Magnises-search-input {
     padding: 8px;
 }
-::i-block-chrome,.travelogue-search-input,
-::i-block-chrome,.index-contact .travelogue-search-input{
+::i-block-chrome,.Magnises-search-input,
+::i-block-chrome,.index-contact .Magnises-search-input{
     padding: 8px 0;
 }
 /* Add new rules for this interval below */
@@ -4418,12 +4418,12 @@ body.st-effect-3.menu-open .st-menu.st-effect-1 {
 /*--- 10. CSS FOR CHROME ---*/
 /*---------------------------------------------*/
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-    .travelogue-search-open .travelogue-search-input,
-    .index-contact .travelogue-search-open .travelogue-search-input {
+    .Magnises-search-open .Magnises-search-input,
+    .index-contact .Magnises-search-open .Magnises-search-input {
         padding: 9px;
     }
-    .travelogue-search-input,
-    .index-contact .travelogue-search-input{
+    .Magnises-search-input,
+    .index-contact .Magnises-search-input{
         padding: 9px 0;
     }
     .index-single .simform ol:before{

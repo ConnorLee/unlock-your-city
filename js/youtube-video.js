@@ -9,16 +9,16 @@ if ( !mobilecheck() ) {
 				    jQuery('.player').unmuteYTPVolume();
 				    jQuery('.sound').addClass('on');
 				    jQuery('.title').fadeOut();
-				    jQuery('.travelogue-icon-sound').removeClass('fa-volume-off');
-					jQuery('.travelogue-icon-sound').addClass('fa-volume-up');
+				    jQuery('.Magnises-icon-sound').removeClass('fa-volume-off');
+					jQuery('.Magnises-icon-sound').addClass('fa-volume-up');
 			   	}else{
 				    if(jQuery('.sound').hasClass('on')){
 				        jQuery('.sound').removeClass('on');
 				        jQuery('.player').muteYTPVolume();    
 				        jQuery('.sound').addClass('off');
 				        jQuery('.title').fadeIn();
-				        jQuery('.travelogue-icon-sound').removeClass('fa-volume-up');
-						jQuery('.travelogue-icon-sound').addClass('fa-volume-off');
+				        jQuery('.Magnises-icon-sound').removeClass('fa-volume-up');
+						jQuery('.Magnises-icon-sound').addClass('fa-volume-off');
 				    }
 				}           
 			});

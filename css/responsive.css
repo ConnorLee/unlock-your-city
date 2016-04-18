@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 [Responsive Stylesheet]
 
-Project:    Travelogue - Travel Blog HTML Template
+Project:    Magnises - Travel Blog HTML Template
 Version:    1.0
 Author:     Modeltheme
-URL:        http://modeltheme.com/travelogue/
+URL:        http://modeltheme.com/Magnises/
 
 [Table of contents]
 
@@ -26,7 +26,7 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 1. Responsive Max_319px ---*/
 @media only screen and (max-width: 319px) {
-    .travelogue-search-open .travelogue-search-input {
+    .Magnises-search-open .Magnises-search-input {
         width: 52%;
     }
     .top{
@@ -57,7 +57,7 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 1. Responsive Min_320px Max_479px ---*/
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .travelogue-search-open .travelogue-search-input {
+    .Magnises-search-open .Magnises-search-input {
         width: 53%;
     }
     .index-contact .one_half {
@@ -99,7 +99,7 @@ URL:        http://modeltheme.com/travelogue/
         font-size: 24px;
         padding: 20px;
     }
-    .travelogue_comment_form > h2 {
+    .Magnises_comment_form > h2 {
         font-size: 20px;
         line-height: 30px;
     }
@@ -107,7 +107,7 @@ URL:        http://modeltheme.com/travelogue/
     .questions li > span label {
         font-size: 16px;
     }
-    .travelogue_comment_form .one_half:first-child{
+    .Magnises_comment_form .one_half:first-child{
         margin-bottom: 10px;
     }
     .index-home .grid figure.small, .index-category .grid figure.small {
@@ -116,7 +116,7 @@ URL:        http://modeltheme.com/travelogue/
     .grid li {
         width: 50%;
     }
-    .travelogue_comment_form .one_half:first-child input,
+    .Magnises_comment_form .one_half:first-child input,
     .one_third,
     .one_sixth,
     .sixth_one,
@@ -155,7 +155,7 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 4. Responsive Min_480px Max_767px ---*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .travelogue-search-open .travelogue-search-input {
+    .Magnises-search-open .Magnises-search-input {
         width: 45%;
     }
     .index-contact .one_half {
@@ -177,22 +177,22 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 5. Responsive Max_767px ---*/
 @media only screen and (max-width: 767px) {
-    .travelogue_comments .comment_author, .travelogue_comments .comment_body {
+    .Magnises_comments .comment_author, .Magnises_comments .comment_body {
         float: none;
         width: 100%;
     }
     button.trigger {
         left: 48%;
     }
-    .travelogue_comments .single_comment {
+    .Magnises_comments .single_comment {
         margin: 20px 0 0;
     }
-    .travelogue_comments .child_comment .comment_body,
-    .travelogue_comments .sixth_one.comment_body,
-    .travelogue_comments .child_child_comment .comment_body {
+    .Magnises_comments .child_comment .comment_body,
+    .Magnises_comments .sixth_one.comment_body,
+    .Magnises_comments .child_child_comment .comment_body {
         width: 100%;
     }
-    .travelogue_comments .author_name {
+    .Magnises_comments .author_name {
         line-height: 38px;
         text-align: left;
     }
@@ -525,15 +525,15 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 12. Responsive Max_600px ---*/
 @media only screen and (max-width: 600px) {
-    .travelogue-more-info h2 {
+    .Magnises-more-info h2 {
         width: 70%;
     }
-    a.travelogue-close-info, 
-    a.travelogue-close-info{
+    a.Magnises-close-info, 
+    a.Magnises-close-info{
         position: inherit;
     }
-    a.travelogue-close-info:hover, 
-    a.travelogue-close-info:hover{
+    a.Magnises-close-info:hover, 
+    a.Magnises-close-info:hover{
         opacity: 0.85;
     }
     /* Add new rules for this interval below */
@@ -543,10 +543,10 @@ URL:        http://modeltheme.com/travelogue/
 
 /*--- 13. Responsive Min_600px ---*/
 @media only screen and (min-width: 600px) {
-    .travelogue-close-info {
+    .Magnises-close-info {
         display: none;
     }
-    .travelogue-single-point .travelogue-more-info {
+    .Magnises-single-point .Magnises-more-info {
         position: absolute;
         width: 220px;
         height: auto;
@@ -559,10 +559,10 @@ URL:        http://modeltheme.com/travelogue/
         -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
-    .travelogue-single-point .travelogue-more-info::before {
+    .Magnises-single-point .Magnises-more-info::before {
         display: block;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-left, .travelogue-single-point .travelogue-more-info.travelogue-right {
+    .Magnises-single-point .Magnises-more-info.Magnises-left, .Magnises-single-point .Magnises-more-info.Magnises-right {
         top: 50%;
         bottom: auto;
         -webkit-transform: translateY(-50%);
@@ -571,7 +571,7 @@ URL:        http://modeltheme.com/travelogue/
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-left::before, .travelogue-single-point .travelogue-more-info.travelogue-right::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-left::before, .Magnises-single-point .Magnises-more-info.Magnises-right::before {
         top: 50%;
         bottom: auto;
         -webkit-transform: translateY(-50%);
@@ -580,22 +580,22 @@ URL:        http://modeltheme.com/travelogue/
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-left {
+    .Magnises-single-point .Magnises-more-info.Magnises-left {
         right: 160%;
         left: auto;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-left::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-left::before {
         border-left-color: rgba(39, 38, 43, 0.8);
         left: 100%;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-right {
+    .Magnises-single-point .Magnises-more-info.Magnises-right {
         left: 160%;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-right::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-right::before {
         border-right-color: rgba(39, 38, 43, 0.8);
         right: 100%;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-top, .travelogue-single-point .travelogue-more-info.travelogue-bottom {
+    .Magnises-single-point .Magnises-more-info.Magnises-top, .Magnises-single-point .Magnises-more-info.Magnises-bottom {
         left: 50%;
         right: auto;
         -webkit-transform: translateX(-50%);
@@ -604,7 +604,7 @@ URL:        http://modeltheme.com/travelogue/
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-top::before, .travelogue-single-point .travelogue-more-info.travelogue-bottom::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-top::before, .Magnises-single-point .Magnises-more-info.Magnises-bottom::before {
         left: 50%;
         right: auto;
         -webkit-transform: translateX(-50%);
@@ -613,40 +613,40 @@ URL:        http://modeltheme.com/travelogue/
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-top {
+    .Magnises-single-point .Magnises-more-info.Magnises-top {
         bottom: 160%;
         top: auto;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-top::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-top::before {
         border-top-color: rgba(39, 38, 43, 0.8);
         top: 100%;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-bottom {
+    .Magnises-single-point .Magnises-more-info.Magnises-bottom {
         top: 160%;
     }
-    .travelogue-single-point .travelogue-more-info.travelogue-bottom::before {
+    .Magnises-single-point .Magnises-more-info.Magnises-bottom::before {
         border-bottom-color: rgba(39, 38, 43, 0.8);
         bottom: 100%;
     }
-    .travelogue-single-point .travelogue-more-info h2 {
+    .Magnises-single-point .Magnises-more-info h2 {
         line-height: 30px;
         margin-bottom: 0;
     }
-    .travelogue-single-point .travelogue-more-info p {
+    .Magnises-single-point .Magnises-more-info p {
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 13px;
     }
-    .travelogue-single-point.is-open .travelogue-more-info.travelogue-left {
+    .Magnises-single-point.is-open .Magnises-more-info.Magnises-left {
         right: 140%;
     }
-    .travelogue-single-point.is-open .travelogue-more-info.travelogue-right {
+    .Magnises-single-point.is-open .Magnises-more-info.Magnises-right {
         left: 140%;
     }
-    .travelogue-single-point.is-open .travelogue-more-info.travelogue-top {
+    .Magnises-single-point.is-open .Magnises-more-info.Magnises-top {
         bottom: 140%;
     }
-    .travelogue-single-point.is-open .travelogue-more-info.travelogue-bottom {
+    .Magnises-single-point.is-open .Magnises-more-info.Magnises-bottom {
         top: 140%;
     }
     /* Add new rules for this interval below */
